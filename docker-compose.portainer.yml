@@ -1,6 +1,6 @@
 services:
   greact-parking:
-    ports:
+    build: .
     expose:
       - 80
     networks:
