@@ -1,0 +1,11 @@
+services:
+  greact-parking:
+    ports:
+    expose:
+      - 80
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true  # Здесь external: true, так как сеть создана в другом стеке
