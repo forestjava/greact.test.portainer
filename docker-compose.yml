@@ -1,0 +1,5 @@
+services:
+  greact-parking:
+    build: .
+    ports:
+      - 80:80
